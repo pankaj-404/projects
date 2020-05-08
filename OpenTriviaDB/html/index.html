@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open trivia Database</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style type="text/css">
+        .gradient {
+            background-image: linear-gradient(-225deg, #6B8DD6 45%, #2CD8D5 100%);
+        }
+    </style>
+</head>
+
+<body class="gradient">
+    <div class=" text-wrap text-break bg-dark fixed-top py-3">
+        <div class="row container text-center ">
+            <div class="col-6 col-md-4 offset-md-3">
+                <select id="category" class="form-control">
+                    <option>Select Category</option>
+
+                </select>
+            </div>
+            <div class="col-6 col-md-4">
+                <select id="numberOfQue" class="form-control">
+                    <option>Select No of Question</option>
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                    <option value="50">50</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="row ">
+        <div class="col-12 text-wrap p-5">
+            <div class="row p-5" id="jokes-card">
+                <div class="container d-none d-md-block display-3 p-5 text-center text-wrap " id="ui">
+                    WELCOME TO <br>
+                    Open trivia Database
+                </div>
+                <div class="container d-block d-md-none h1 p-5 text-center text-wrap " id="ui">
+                    WELCOME TO <br>
+                    Open trivia Database
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script type="text/javascript" src="../js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
