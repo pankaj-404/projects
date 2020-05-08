@@ -23,7 +23,7 @@ function getData() {
 
     let val = input.value || "iron man"
     if (val) {
-        fetch(`http://www.omdbapi.com/?apikey=fcc8d66d&s=${val}`)
+        fetch(`https://www.omdbapi.com/?apikey=fcc8d66d&s=${val}`)
             .then(res => res.json())
             .then(res => {
                 if (res.Response==="True") {
@@ -130,7 +130,7 @@ function fillPageForSummary(dataRes, low, high) {
 
             var poster = document.createElement("img")
             poster.setAttribute("class", "card-img-top imgSize")
-            poster !== null ? (poster.src = dataRes.Search[i].Title) : (poster.innerHTML = "http://via.placeholder.com/400")
+            poster !== null ? (poster.src = dataRes.Search[i].Title) : (poster.innerHTML = "https://via.placeholder.com/400")
             poster.src = dataRes.Search[i].Poster
 
             var cardBody = document.createElement("div")
@@ -161,7 +161,7 @@ function fillPageForSummary(dataRes, low, high) {
 
 function getUrl() {
 
-    var baseUrl = "http://www.omdbapi.com/?apikey=5f66fbfa"
+    var baseUrl = "https://www.omdbapi.com/?apikey=5f66fbfa"
     var titleValue = document.getElementById("title")
     var typeValue = document.getElementById("type")
     var yearValue = document.getElementById("year")
