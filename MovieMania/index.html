@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moviemania</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <style type="text/css">
+        .gradient-primary {
+
+            background-image: linear-gradient(-225deg,
+                    #2CD8D5 0%, #6B8DD6 48%, #8E37D7 100%);
+
+        }
+
+        .imgSize {
+            max-height: 50%;
+            width: 70%;
+            margin: 3% 15%;
+        }
+
+        .card {
+            height: 400px;
+            width: 350px;
+        }
+
+    .display{
+        display: flex;
+        justify-content: space-around;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col gradient-primary my-1">
+                <h1>MOVIEMANIA</h1>
+            </div>
+        </div>
+        <div class="row" >
+            <input type="text" class="form-control col-3" id="title" placeholder="Title(Mandatory*)">
+            <input type="text" class="form-control col-3" id="type" placeholder="Type(movie/series/episode)">
+            <input type="text" class="form-control col-3" id="year" placeholder="Year">
+            <button type="button" class="col-3 btn btn-primary form-control " data-toggle="button" aria-pressed="false"
+                id="submitBtn">
+                Click Me
+            </button>
+        </div>
+
+        <hr>
+
+        <div class="row text-center display" id="res">
+            
+        </div>
+        <br><br><br><br>
+        <div class="container ">
+            <nav aria-label="..." class="stickyNav fixed-bottom text-center row" id="bottomNav">
+                <div class="pagination col-10 col-md-4 offset-md-5" id="pages">
+                </div>
+
+                <!-- for selecting pages dynamicaly -->
+                <div class="col-2 ">
+                    <select name="perpage" id="pageSelect" class="stickySelect ml-3 text-center">
+                        <option value="2" selected>Per-page 2</option>
+                        <option value="3">Per-page 3</option>
+                        <option value="4">Per-page 4</option>
+                        <option value="5">Per-page 5</option>
+                        <option value="10">Per-page 10</option>
+                    </select>
+                </div>
+
+            </nav>
+        </div>
+
+
+
+        <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>
