@@ -30,7 +30,7 @@ function getRandomQuestion(e) {
     e.preventDefault()
     var num = document.getElementById("numberOfQue").value
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'https://opentdb.com/api.php?amount=' + num);
+    xhr.open('GET', `https://opentdb.com/api.php?amount=${num}`);
     xhr.send();
     xhr.onload = function () {
         if (xhr.status == 200) {
@@ -117,7 +117,6 @@ function getCategoryQuestion(e) {
 
 function formSubmit() {
     validateForm()
-
 }
 
 var checks;
