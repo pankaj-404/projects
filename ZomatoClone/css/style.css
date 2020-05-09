@@ -2,7 +2,7 @@ body,html{
     height: 95%;
 }
 .bgImage{
-    background-image: url("https://images.unsplash.com/photo-1496412705862-e0088f16f791?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-image: url("../img/food3.jpg");
     height: 100%;
     width: 100%;
     background-position: center;
