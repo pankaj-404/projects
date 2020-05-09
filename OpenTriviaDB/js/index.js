@@ -92,7 +92,7 @@ function showQuestion(data) {
     btn.setAttribute("onclick", "formSubmit()")
     btn.textContent = "Submit"
     card.append(form, btn)
-    console.log(correct_answers)
+    // console.log(correct_answers)
 }
 
 function getCategoryQuestion(e) {
