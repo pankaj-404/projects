@@ -15,10 +15,10 @@
 <p align="center"><img src="./screenshots/reptites.png" width="750px"/></p>
 
 * <h2><a href="https://pankaj-404.github.io/vanilla-projects/TicTacToe/">TicTacToe</a></h2><p>TicTacToe bring the game at user's disposal. The project exhibits the skills in Javascript and HTML. It is a two player game, where each player gets chance alternatively and the winner is alerted once game finishes. Checkout the code <a href="https://github.com/pankaj-404/vanilla-projects/tree/master/TicTacToe">here!</a></p><br>
-<img align="left" src="./screenshots/tictactoe-landingPage.png" width="480px"/><img align="right" src="./screenshots/tictactoe-winner.png " width="480px"/>
+<img align="left" src="./screenshots/tictactoe-landingPage.png" width="450px"/><img align="right" src="./screenshots/tictactoe-winner.png " width="450px"/>
 
 * <h2><a href="https://pankaj-404.github.io/vanilla-projects/ZomatoClone/">ZomatoClone</a></h2><p>ZomatoClone is a full-featured food ordering application, cloning Zomato features. The user can login to access all the features or register, if not a member. It provides user to surf through the restaurants and place an order. It also aims on achieving to become an Order Management System for admins. The admins can add or remove restaurants for starters. Checkout the code <a href="https://github.com/pankaj-404/vanilla-projects/tree/master/ZomatoClone">here!</a></p><br>
-<img align="left" src="./screenshots/foodApp.png" width="480px"/><img align="right" src="./screenshots/foodApp-menu.png" width="480px"/>
+<img align="left" src="./screenshots/foodApp.png" width="450px"/><img align="right" src="./screenshots/foodApp-menu.png" width="450px"/>
 
 
 
